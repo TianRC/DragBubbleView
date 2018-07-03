@@ -427,49 +427,44 @@ public class DragBubbleView extends View {
         invalidate();
     }
 
+    //设置 气泡半径
     public void setmBubbleRadius(float mBubbleRadius) {
         this.mBubbleRadius = mBubbleRadius;
         invalidate();
-
     }
-
+    //设置 气泡颜色
     public void setmBubbleColor(int mBubbleColor) {
         this.mBubbleColor = mBubbleColor;
         invalidate();
 
     }
-
+    //设置 气泡消息文字
     public void setmTextStr(String mTextStr) {
         this.mTextStr = mTextStr;
         invalidate();
 
     }
-
+    //设置 气泡消息文字颜色
     public void setmTextColor(int mTextColor) {
         this.mTextColor = mTextColor;
         invalidate();
     }
-
+    //设置 气泡消息文字大小
     public void setmTextSize(float mTextSize) {
         this.mTextSize = mTextSize;
         invalidate();
     }
-
+    //设置 不动气泡的半径
     public void setmBubStillRadius(float mBubStillRadius) {
         this.mBubStillRadius = mBubStillRadius;
         invalidate();
     }
-
+    //设置 可动气泡的半径
     public void setmBubMoveableRadius(float mBubMoveableRadius) {
         this.mBubMoveableRadius = mBubMoveableRadius;
         invalidate();
     }
-
-    public void setmBurstBitmapsArray(Bitmap[] mBurstBitmapsArray) {
-        this.mBurstBitmapsArray = mBurstBitmapsArray;
-        invalidate();
-    }
-
+    //设置 气泡爆炸的图片id数组
     public void setmBurstDrawablesArray(int[] mBurstDrawablesArray) {
         this.mBurstDrawablesArray = mBurstDrawablesArray;
         invalidate();
