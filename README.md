@@ -2,6 +2,10 @@
 
 # 模仿QQ未读消息
 
+## 效果图
+
+![](source/dragbubbleview.gif)
+
 ### 使用方法：
 
 Gradle</br>
