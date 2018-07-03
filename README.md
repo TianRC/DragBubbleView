@@ -69,3 +69,15 @@ setmBubMoveableRadius(float mBubMoveableRadius)
     //设置 气泡爆炸的图片id数组
 setmBurstDrawablesArray(int[] mBurstDrawablesArray) 
 ```
+attrs
+```xml
+<resources>
+    <declare-styleable name="DragBubbleView">
+        <attr name="bubble_radius" format="dimension"/>
+        <attr name="bubble_color" format="color"/>
+        <attr name="bubble_text" format="string"/>
+        <attr name="bubble_textSize" format="dimension"/>
+        <attr name="bubble_textColor" format="color"/>
+    </declare-styleable>
+</resources>
+```
