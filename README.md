@@ -2,17 +2,20 @@
 ##模仿QQ未读消息
 ##使用方法：
 Gradle</br>
-1：In the project root directory build.gradle</br>
-
-    	repositories {
+*1：In the project root directory build.gradle*</br>
+```groovy
+repositories {
           　　//Rely on the warehouse
         　　　maven { url 'https://jitpack.io' }
         　　}
         }
+```
+    	
 
 
-2：The project directory build.gradle relies on the DashBoard framework
-	
-	dependencies {
+2：*The project directory build.gradle relies on the DashBoard framework*
+```groovy
+dependencies {
 	        implementation 'com.github.trc1993:DragBubbleView:-SNAPSHOT'
 	}
+```
