@@ -4,7 +4,7 @@
 
 ## 效果图
 
-![](source/dragbubbleview.gif)
+<img src="source/dragbubbleview.gif" width="280" height="466"/>
 
 ### 使用方法：
 
