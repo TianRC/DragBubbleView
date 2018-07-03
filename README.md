@@ -2,7 +2,7 @@
 
 ##模仿QQ未读消息
 
-##使用方法：
+###使用方法：
 
 Gradle</br>
 *1：In the project root directory build.gradle*</br>
